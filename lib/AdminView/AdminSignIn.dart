@@ -84,9 +84,10 @@ class _AdminSignInState extends State<AdminSignIn> {
                                       color: Color(0xfff4f7fe),
                                     ),
                                     child: TextField(
+                                      obscureText:
+                                          true, // Set to true for a password input field
                                       decoration: InputDecoration(
-                                        hintText: 'Password',
-                                        filled: true,
+                                        hintText: 'Enter your password',
                                       ),
                                     ),
                                   ),
